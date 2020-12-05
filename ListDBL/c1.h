@@ -1,13 +1,13 @@
-// c1.h (³ÌÐòÃû)
+// c1.h (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 
 #ifndef C_H
 #define C_H
 
 #include<string.h>
 #include<ctype.h>
-#include<malloc.h> // malloc()µÈ
-#include<limits.h> // INT_MAXµÈ
-#include<stdio.h> // EOF(=^Z»òF6),NULL
+#include<malloc.h> // malloc()ï¿½ï¿½
+#include<limits.h> // INT_MAXï¿½ï¿½
+#include<stdio.h> // EOF(=^Zï¿½ï¿½F6),NULL
 #include<stdlib.h> // atoi()
 #include<io.h> // eof()
 #include<math.h> // floor(),ceil(),abs()
@@ -22,7 +22,7 @@
 #define MAX_LENGTH   100
 
 typedef int Bool;
-typedef int Status; // StatusÊÇº¯ÊýµÄÀàÐÍ,ÆäÖµÊÇº¯Êý½á¹û×´Ì¬´úÂë£¬ÈçOKµÈ
+typedef int Status; // Statusï¿½Çºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½Öµï¿½Çºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬ï¿½ï¿½ï¿½ë£¬ï¿½ï¿½OKï¿½ï¿½
 //typedef int ElemType;
 typedef char ElemType; 
 
