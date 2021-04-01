@@ -58,11 +58,11 @@ void kmp_search(char s[], char t[], int next[], int m, int n){
 }
 
 int main(){
-    char subString[12] = {'A','B','A','B','A','B','C','A','B','A','A','B'};
+    char subString[16] = {'A','B','A','B','A','B','C','A','B','A','B','C','A','B','A','A'};
     char parrtern[9] =   {'A','B','A','B','C','A','B','A','A'};
     int next[9] = {0};
     create_Next(parrtern,next,9);
     move_Next(next,9);
-    kmp_search(subString,parrtern,next,12,9);
+    kmp_search(subString,parrtern,next,16,9);
     return 0;
 }
