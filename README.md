@@ -1,2 +1,2 @@
-# Data-Struture
-- include some Algorithm I code
+# Algorithm
+- including some Algorithms I coded
